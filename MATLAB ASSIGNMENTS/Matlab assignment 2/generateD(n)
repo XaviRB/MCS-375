@@ -1,0 +1,45 @@
+n = 3
+
+n =
+
+     3
+
+A = generateD(n)
+
+A =
+
+     1     1     1
+     2     4     8
+     3     9    27
+
+A
+
+A =
+
+     1     1     1
+     2     4     8
+     3     9    27
+
+inv(A)
+
+ans =
+
+    3.0000   -1.5000    0.3333
+   -2.5000    2.0000   -0.5000
+    0.5000   -0.5000    0.1667
+
+Inverse(A)
+
+ans =
+
+    3.0000   -1.5000    0.3333
+   -2.5000    2.0000   -0.5000
+    0.5000   -0.5000    0.1667
+
+Inverse
+if system_dependent('IsDebugMode')==1, dbstep in; end
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Inverse', 'C:\Users\xavie\OneDrive\Desktop\MATLAB misq\MATLAB ASSIGNMENTS\Matlab assignment 2\Inverse.m', 8)" style="font-weight:bold">Inverse</a> (<a href="matlab: opentoline('C:\Users\xavie\OneDrive\Desktop\MATLAB misq\MATLAB ASSIGNMENTS\Matlab assignment 2\Inverse.m',8,0)">line 8</a>)
+[r,c] = size(A);
+} 
